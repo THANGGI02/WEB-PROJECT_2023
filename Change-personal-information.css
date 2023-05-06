@@ -1,4 +1,3 @@
-/*CSS cho tất cả */
 *{
     padding: 0;
     margin: 0;
@@ -12,7 +11,6 @@ body{
     justify-content: center;
 }
 
-/*CSS cho thành phần chứa label, table, button */
 .container{
     width: 689px;
     height: 450px;
@@ -22,10 +20,8 @@ body{
     font-weight: 600;
     text-align: center;
     padding-top: 30px;
-    font-size: 20px;
 }
 
-/*CSS cho bảng chứa các thông tin cần nhập */
 table{
     padding-top: 30px;
     text-align: left;
@@ -35,13 +31,13 @@ table{
 
 /*CSS cho các label First Name, Last Name, Class, Gender, Mail */
 label{
-    font-size: 20px;
+    font-size: 22px;
 }
 
-/*CSS cho các text-box của First Name, Last Name, Mail và select Class*/
-input[type='text'], #yourClass {
+/*CSS cho các dữ liệu dầu vào dạng text,email và select Class*/
+input[type='text'],input[type='email'], #yourClass {
     width: 192px; 
-    height: 23px;
+    height: 25px;
     background-color: #a39393; 
     border: none; 
     margin: 13px 0px 13px 18px;
@@ -55,7 +51,7 @@ input[type='text'], #yourClass {
 
 /*CSS cho các lựa chọn lớp 10, lớp 11, lớp 12 của select Class */
 option{
-    font-size: 20px; 
+    font-size: 22px; 
     text-align: center;
 }
 
@@ -91,7 +87,7 @@ input[type='radio']:checked:after {
     visibility: visible;
 }
 
-/*CSS cho button CHANGE*/
+/*CSS cho nút submit CHANGE*/
 input[type='submit']{
     width: 122px;
     height: 44px;
