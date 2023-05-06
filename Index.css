@@ -1,4 +1,3 @@
-/*CSS cho tất cả trng*/
 *{
     padding: 0;
     margin: 0;
@@ -27,8 +26,7 @@
     margin: 0 auto;
 }
 
-/*CSS cho hình ảnh cho dầu trang ở phần trên*/
-
+/*CSS cho phần chứa logo của dầu trang*/
 #header-top #logo-header{
     position: absolute;
     top: 11px;
@@ -37,6 +35,7 @@
     margin: 0px auto;
 }
 
+/*CSS cho logo đầu trang*/
 #header-top img{
     width: 77px;
     height: 77px;
@@ -102,6 +101,7 @@
     list-style-type: none;
 }
 
+/*CSS các phần tử của button infor*/
 #header-top #nav-infor li{
     position: relative;
 }
