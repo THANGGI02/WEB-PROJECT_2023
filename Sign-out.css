@@ -12,11 +12,11 @@ body{
 }
 
 .container{
-    width: 689px;
+    width: 480px;
     height: 450px;
     background-color: #d9d9d9;
     text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Inter;
     font-weight: 600;
     text-align: center;
     padding-top: 30px;
@@ -26,7 +26,7 @@ body{
 table{
     padding-top: 30px;
     text-align: left;
-    transform: translateX(160px);
+    transform: translateX(60px);
 
 }  
 
@@ -41,7 +41,7 @@ input[type="password"],
 input[type="email"] , 
 #yourClass {
     width: 192px; 
-    height: 23px;
+    height: 25px;
     background-color: #a39393; 
     border: none; 
     margin: 13px 0px 13px 18px;
