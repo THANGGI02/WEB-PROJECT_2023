@@ -63,7 +63,7 @@ input[type='radio']:after {
     height: 19px;
     border-radius: 19px;
     position: relative;
-    background-color: #923838;
+    background-color: whitesmoke;
     content: '';
     display: inline-block;
     visibility: visible;
@@ -75,21 +75,20 @@ input[type='radio']:checked:after {
     height: 19px;
     border-radius: 19px;
     position: relative;
-    background-color: #923838;
-    opacity: 0.7;
+    background-color: powderblue;
     content: '';
     display: inline-block;
     visibility: visible;
 }
 
 input[type='submit']{
-    border-radius: 10px;
+    border-radius: 4px;
     width: 122px;
     height: 44px;
     background-color: black;
     color: white;
     border: none;
-    font-size: 20px;
+    font-size: 15px;
     display: block;
     transform: translateY(20px);
     margin: 0 auto;
