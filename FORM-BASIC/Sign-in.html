@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN OUT</title>
+    <link rel="stylesheet" href="Basic-form.css">
+    <style>
+          .container{
+            width: 480px;
+            height: 450px;
+          }
+
+          table{
+            transform: translateX(60px);
+          }
+
+          /*CSS cho các label Username, Password, Class, Gender, Mail */
+          label{
+            font-size: 20px;
+          }
+
+          /*CSS cho các dữ liệu đầu vào có dạng text, password, email và select Class*/
+          input[type='text'], 
+          input[type="password"], 
+          input[type="email"] , 
+          #yourClass {
+            width: 200px; 
+            height: 25px;
+            background-color: whitesmoke;
+            color: rgba(0, 0, 0, 0.733); 
+            border: none; 
+            padding-left: 5px;
+            margin: 13px 0px 13px 18px;
+          }    
+    </style>
+</head>
+<body>
+        <div class="container" >
+            <form action="#" method="post" name="sign-Out">
+            <label for="" style="font-size: 28px;">Sign out</label>
+            <table>
+                <tr>
+                    <td>
+                      <label for="">Username:</label>
+                    </td>
+
+                    <td>
+                      <input type="text" id="username" size="30">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                      <label for="">Password: </label>
+                    </td>
+
+                    <td>
+                      <input type="password" id="Password" size="30">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="yourClass">Class:</label>
+                    </td>
+    
+                    <td>
+                        <select name="Class" id="yourClass" >
+                           <option value="">Hãy chọn lớp </option>
+                           <option value="class10">Lớp 10</option>
+                           <option value="class11">Lớp 11</option>
+                           <option value="class12">Lớp 12</option>
+                        </select>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <label for="gender" style="font-size: 20px;">Gender:</label>
+                    </td>
+    
+                    <td>
+                        <input name="gender" type="radio" value="Nam" checked="true">
+                                     <label for="">Nam</label>
+    
+                        <input name="gender" type="radio" value="Nữ">
+                                     <label for="" >Nữ</label>
+    
+                        <input name="gender" type="radio" value="Khác" >
+                                      <label for="">Khác</label>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <label for="mail">Mail:</label>
+                    </td>
+    
+                    <td>
+                        <input type="email" id="mail" size="30" >
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" name="sign-Out_Person" id="sign-out_person" value="Sign out">
+            </form>
+        </div>       
+</body>
+</html>
