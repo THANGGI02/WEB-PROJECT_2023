@@ -199,7 +199,7 @@
     line-height: 50px;
     align-items: center;
     text-align: center;
-    color: rgba(245, 245, 245, 0.74);
+    color: #fff;
     padding: 0px 18px;
     border-right: 1px solid #333;
     margin-left: -4px;
@@ -212,6 +212,7 @@
 #nav-header .subnavclass11 li:hover,
 #nav-header .subnavclass12 li:hover{
     background-color: rgba(20, 175, 129, 0.253);
+    color: rgba(245, 245, 245, 0.74);
     opacity: 0.8;
 }
 
