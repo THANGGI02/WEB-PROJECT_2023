@@ -78,7 +78,7 @@
     
 }
 
-/*CSS cho phần chung của hai nút button hello và button đăng xuất */
+/*CSS cho phần chung của hai nút button infor và button đăng xuất */
 #header-top #nav-infor, #button-dangxuat{
     position: absolute;
     height: 22px;
@@ -94,7 +94,6 @@
     margin: 0px auto;
     z-index: 3;
 }
-
 
 #header-top #nav-infor, 
 .subnav-infor{
@@ -151,6 +150,7 @@
     background: grey;
     font-weight: bold;
     border: 0px;
+    border-radius: 7px;
     cursor: pointer;
 }
 
